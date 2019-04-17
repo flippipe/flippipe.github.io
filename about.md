@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Eu 我 Yo 私 Mé
 permalink: /about/
 ---
 
@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+A place to migrate old stuff [from somewhere in internet](http://pipe.oliveira-carvalho.com/) to here.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Drop me an email](mailto:filipe@oliveira-carvalho.com)
