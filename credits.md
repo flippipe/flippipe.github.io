@@ -1,7 +1,7 @@
 ---
 layout: page
 title: To make this site...
-permalink: /making/
+permalink: /credits/
 ---
 
 
