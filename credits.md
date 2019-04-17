@@ -1,6 +1,6 @@
 ---
 layout: page
-title: To make this site...
+title: In the Making-of
 permalink: /credits/
 ---
 
