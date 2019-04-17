@@ -5,7 +5,7 @@
 // IMPORTS
 //
 
-@import "reset";
+//@import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
