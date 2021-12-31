@@ -1,27 +1,31 @@
 ---
-title: "Drawio - Auto Generate Images"
+title: "draw.io - Auto Generate Images"
 date: 2021-12-30T21:20:30Z
-draft: true
-description: "I got a new work to do, and envolves creating diagrams in DrawIO.
+draft: false
+summary: "I got a new assignment to do and envolves creating diagrams with draw.io.
 As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
-tags: ["git"]
+description: "I got a new assignment to do and envolves creating diagrams with draw.io.
+As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
+tags: ["git", "draw.io"]
 ---
 
 # TLDR
 
-Combining [snaps]() with [electron apps]() do not mix well.
+Application in [snaps](https://en.wikipedia.org/wiki/Snap_(package_manager)) running script to call other [electron](https://www.electronjs.org/docs/latest) snapped application do not mix well.
 
-[Final solution](#solution), use old tools like [incrond](https://github.com/ar-/incron) to captures the changes in the diagrams to auto generate the files.
+[Final solution](#solution-1), was use old tools like [incrond](https://github.com/ar-/incron) to captures the changes in the diagrams to auto generate the files.
 
 # Story
 
 ## 💡
 
-Some time ago, skimming [git](https://git-scm.com/book/en/v2) documentation I saw references for hooks and this time, was a good time to try it out. Each time I commit a new diagram, it will auto generate a new file.
+My first thought was to create a GitHub Action to generate these files, but [actions-drawio](https://github.com/marketplace/actions/actions-drawio) is based in code it is [archived](https://github.com/languitar/drawio-batch), because drawio-desktop already [supports](https://j2r2b.github.io/2019/08/06/drawio-cli.html) command line interface to export to image formats.
 
-drawio-desktop already [supports](https://j2r2b.github.io/2019/08/06/drawio-cli.html) command line interface to do it, it could not to be to difficult to do a simple script to do this task... and... oh god! how I was wrong.
+Some time ago, skimming [git](https://git-scm.com/book/en/v2) documentation I saw references for hooks and this time, was a good time to try it out. Each time I commit a new diagram, it will auto generate a new image.
 
-## Hurdle ❶ - Snap Confinement and drawio-desktop
+It could not to be to difficult to do a simple script to do this task... and... oh god! how wrong I was.
+
+## Hurdle ① - Snap Confinement and drawio-desktop
 
 [Snap Confinement](https://snapcraft.io/blog/demystifying-snap-confinement) is good for the security of our computers, but, it expects users have their files in the default locations, and, almost all my files are not where it expect to be.
 
@@ -34,61 +38,73 @@ So I try to use the trick to remount my working directory inside `/mnt` to allow
 
 Modify the snap to add the `removable-media` interface
 
-    $ snap download drawio
-    $ unsquashfs -dest drawio_138 drawio_138.snap
+``` shell
+$ snap download drawio
+$ unsquashfs -dest drawio_138 drawio_138.snap
+```
 
 Edit `drawio_138/meta/snap.yaml` and add `removable-media` into plugs
 
 Resulting in something like:
 
-    apps:
-    drawio:
-        command: command.sh
-        plugs:
-            (...)
-            - opengl
-            - removable-media
-        environment:
-
+``` yaml
+apps:
+drawio:
+    command: command.sh
+    plugs:
+        (...)
+        - opengl
+        - removable-media
+    environment:
+```
 Then, use the modified snap with [`snap try`](https://snapcraft.io/docs/snap-try#heading--snaptry)
 
-    $ sudo snap try drawio_138
+
+``` shell
+$ sudo snap try drawio_138
+```
 
 Snap, installed
 
-    $ snap list 
-    Name                             Version                     Rev    Tracking         Publisher          Notes
-    core20                           20211129                    1270   latest/stable    canonical✓         base
-    drawio                           16.0.2                      x1     -                -                  try
+``` shell
+$ snap list 
+Name                             Version                     Rev    Tracking         Publisher          Notes
+core20                           20211129                    1270   latest/stable    canonical✓         base
+drawio                           16.0.2                      x1     -                -                  try
+```
 
 Last task, `mount` the directory in the new location, adapted from [Home directories outside of '/home'](https://snapcraft.io/docs/home-outside-home)
 
     # mount --bind  /work/WIP/ /mnt/WIP/
 
 
-## Hurdle ❷ - Git Hooks
+## Hurdle ② - Git Hooks
 
 I'm new to git, so, choose the right [hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) to do the task, was not easy... some voices in internet, say to use `pre-commit`, but adding files at this stage is not linear.
 
 My chosen solution was to do a `post-commit`, in which will generate the file and then add and commit the file, something like:
 
-    /snap/bin/drawio --export 
-    git add
-    git commit -m "AutoCommit - Update DrawIO Images" 
+```shell
+/snap/bin/drawio --export 
+git add
+git commit -m "AutoCommit - Update DrawIO Images" 
+```
 
 I made the script work when I manually ran `git commit` on terminal... but when the hook ran inside [VSCodium](https://vscodium.com/)... it didn't work...
 
-## Hurdle ❸ - Electron... Snaps...
+## Hurdle ③ - Electron... Snaps...
 
 From inside an Electron App (VSCodium) try to run another Electron App (drawio-desktop), was an hell, so I quit to make it work.
 
 Just a quick note, if you see something like this in your system logs
 
-    kernel: traps: drawio[767435] trap int3 ip:55fac191b086 sp:7ffe0bb228d0 error:0 in drawio[55fac0bcb000+6a10000]
+``` log
+kernel: traps: drawio[767435] trap int3 ip:55fac191b086 sp:7ffe0bb228d0 error:0 in drawio[55fac0bcb000+6a10000]
+```
 
 Consider it as a core dump.
 
-## Hurdle ❹ - No Git Hooks
+## Hurdle ④ - No Git Hooks
 
 Without git hooks, I need to find a solution to detect file changes, and inotify kernel feature is a great solution, but lack a good user land tools.
 
@@ -96,8 +112,8 @@ Without git hooks, I need to find a solution to detect file changes, and inotify
 
 Just found to possible paths:
 
-* [systemd.path](https://www.freedesktop.org/software/systemd/man/systemd.path.html#)
 * [incron](https://github.com/ar-/incron)
+* [systemd.path](https://www.freedesktop.org/software/systemd/man/systemd.path.html#)
 
 
 ### incron
@@ -117,13 +133,23 @@ Do not have an option to have the file name of the modified file, kill the possi
 
 So in the end, I just have the option of `incron` 😒
 
+## Hurdle ⑤ - Electron is not meant to run on headless
+
+Electron apps are made to be used in a graphical environment, not to be used in a script. 
+
+But fortunately, someone use CICD process to test their electron app, and already add that [problem](https://webuild.envato.com/blog/running-headless-javascript-testing-with-electron-on-any-ci-server/)
+
+Meanwhile, while the [feature](https://github.com/electron/electron/issues/228) request in electron is not done, we have an option to create a [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml#heading6) 
+
 # Solution
 
 ## Install and configure incron
 
 This is the easiest part
 
-    # apt install incron
+``` shell
+$ sudo apt install incron
+```
 
 Then, add your username to `/etc/incron.allow`
 
@@ -131,17 +157,21 @@ Then, add your username to `/etc/incron.allow`
 
 Edit incrontab 
 
-    $ incrontab -e
+``` shell
+$ incrontab -e
+```
 
 and add your configuration
 
-    /work/WIP/Clouds/*.drawio  IN_CLOSE_WRITE  /home/johndoe/bin/incron-drawio.sh $@
+``` txt
+/work/WIP/Clouds/*.drawio  IN_CLOSE_WRITE  /home/johndoe/bin/incron-drawio.sh $@
+```
 
 Then create your script `/home/johndoe/bin/incron-drawio.sh`
 
 ## My Script
 
-```bash
+``` bash
 #!/bin/bash
 set -Eeuo pipefail
 
@@ -158,11 +188,8 @@ delta=$(( now - lastChange ))
 
 echo "incron generating image from $1" | logger 
 
-# drawio is an electron app, inside a snap, and inside script 
-# it do not work because gpu stuff
-# you will in system log messages, messages like
-# kernel: traps: drawio[678537] trap int3 ip:557dba461086 sp:7ffd451ee510 error:0 in drawio[557db9711000+6a10000]
-# so, use a framebuffer without GPU, therefore it do not crash
+# drawio is an electron app, and expect to have a display server
+# so, use a framebuffer without GPU
 export DISPLAY=':99.0'
 Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 Xvfb_PID=$!
@@ -180,3 +207,5 @@ kill $Xvfb_PID
 Some other resources how help me in this journey
 
 * [Git Hooks](https://githooks.com/)
+* [incron](https://wiki.archlinux.org/title/Incron)
+* [incrontab - tables for driving inotify cron (incron)](https://man.archlinux.org/man/incrontab.5)

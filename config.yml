@@ -12,24 +12,27 @@ minify:
     disableXML: true
     minifyOutput: true
 
-params:
+params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-variables
     title: Ϝլוρ Ριрε
-    description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    # description: "ExampleSite description" 
+    keywords: [Blog, PaperMod]
+    author: Filipe
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "2 Jan 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
     ShowReadingTime: true
     ShowShareButtons: true
+    ShareButtons: ["telegram"]
+
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
+    disableAnchoredHeadings: false
     comments: false
     hidemeta: false
     hideSummary: false
@@ -46,16 +49,16 @@ params:
         apple_touch_icon: "/static/apple-touch-icon.png"
         safari_pinned_tab: "/static/safari-pinned-tab.svg"
 
-    label:
-        text: "Ϝլוρ Ριрε"
-        icon: /apple-touch-icon.png
-        iconHeight: 35
+    # label:
+    #     text: "Ϝլוρ Ριрε"
+    #     icon: /apple-touch-icon.png
+    #     iconHeight: 35
 
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
         title: Eu 我 Yo 私 Mé 
-        # subtitle: "This is subtitle"
+        subtitle: "Backing up my brain. Some times, data get lost!"
         imageUrl: "https://avatars.githubusercontent.com/u/47356934?v=4"
         imageWidth: 120
         imageHeight: 120
@@ -78,6 +81,12 @@ params:
           url: "https://stackoverflow.com"
         - name: github
           url: "https://github.com/flippipe"
+        - name: keybase
+          url: ""
+        - name: paypal
+          url: ""
+        - name: telegram
+          url: ""
 
 
     cover:
@@ -86,7 +95,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/flippipe/flippipe.github.io/content"
+        URL: "https://github.com/flippipe/flippipe.github.io/blob/master/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -102,18 +111,19 @@ params:
     #     keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: posts
+          name: posts
+          url: /posts/
+          weight: 10
         - identifier: categories
           name: categories
           url: /categories/
-          weight: 10
+          weight: 20
         - identifier: tags
           name: tags
           url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
           weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
@@ -123,3 +133,19 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+
+# https://gohugo.io/about/hugo-and-gdpr/
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true

@@ -1,3 +1,3 @@
 # flippipe.github.io
 
-My blog source code
+My brain backup source code, powered by [Hugo](https://gohugo.io/) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
