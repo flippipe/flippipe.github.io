@@ -174,3 +174,10 @@ $drawio --output "${realFile%.*}".png "$realFile" | logger
 kill $Xvfb_PID
 
 ```
+
+
+# 🍬
+
+Some other resources how help me in this journey
+
+* [Git Hooks](https://githooks.com/)
