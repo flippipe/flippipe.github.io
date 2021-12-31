@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_posts on My New Hugo Site</title>
+    <link>http://example.org/_posts/</link>
+    <description>Recent content in _posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Dec 2021 21:20:30 +0000</lastBuildDate><atom:link href="http://example.org/_posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drawio - Auto Generate Images</title>
+      <link>http://example.org/_posts/2021-12-30-drawio-auto-generate-images/</link>
+      <pubDate>Thu, 30 Dec 2021 21:20:30 +0000</pubDate>
+      
+      <guid>http://example.org/_posts/2021-12-30-drawio-auto-generate-images/</guid>
+      <description>In last weeks, I got a new work to do, and envolves creating diagrams and DrawIO was the lucky chosen.
+As the diagrams will be used in documentation and exposed in GitHub, I need updated images.
+TLDR Combining snaps with electron apps do not mix well.
+Final solution, use old tools like incrond to captures the changes in the diagrams to auto generate the files.
+Story 💡 Some time ago, skimming git documentation I saw references for hooks and this time, was a good time to try it out.</description>
+    </item>
+    
+  </channel>
+</rss>
