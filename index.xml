@@ -4,20 +4,16 @@
     <title>Ϝլוρ Ριрε</title>
     <link>https://flippipe.github.io/</link>
     <description>Recent content on Ϝլוρ Ριрε</description>
-    <image>
-      <url>https://flippipe.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://flippipe.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Dec 2021 21:20:30 +0000</lastBuildDate><atom:link href="https://flippipe.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Drawio - Auto Generate Images</title>
+      <title>draw.io - Auto Generate Images</title>
       <link>https://flippipe.github.io/posts/2021-12-30-drawio-auto-generate-images/</link>
       <pubDate>Thu, 30 Dec 2021 21:20:30 +0000</pubDate>
       
       <guid>https://flippipe.github.io/posts/2021-12-30-drawio-auto-generate-images/</guid>
-      <description>I got a new work to do, and envolves creating diagrams in DrawIO. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
+      <description>I got a new assignment to do and envolves creating diagrams with draw.io. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
     </item>
     
   </channel>
