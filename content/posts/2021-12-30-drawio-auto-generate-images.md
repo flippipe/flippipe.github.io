@@ -2,11 +2,10 @@
 title: "Drawio - Auto Generate Images"
 date: 2021-12-30T21:20:30Z
 draft: true
+description: "I got a new work to do, and envolves creating diagrams in DrawIO.
+As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
+tags: ["git"]
 ---
-
-In last weeks, I got a new work to do, and envolves creating diagrams and DrawIO was the lucky chosen.
-
-As the diagrams will be used in documentation and exposed in GitHub, I need updated images.
 
 # TLDR
 
