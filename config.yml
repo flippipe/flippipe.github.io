@@ -75,18 +75,18 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
     #     Content: Welcome to my blog
 
     socialIcons:
+        - name: telegram
+          url: "https://t.me/flippipe"
+        - name: github
+          url: "https://github.com/flippipe"
         - name: linkedin
           url: "https://www.linkedin.com/in/filipecarvalho"
         - name: stackoverflow
-          url: "https://stackoverflow.com"
-        - name: github
-          url: "https://github.com/flippipe"
-        - name: keybase
-          url: ""
+          url: "https://stackoverflow.com/users/757818/pipe"
+        # - name: keybase
+        #   url: "https://keybase.io/flippipe"
         - name: paypal
-          url: ""
-        - name: telegram
-          url: ""
+          url: "https://paypal.me/flippipe"
 
 
     cover:
