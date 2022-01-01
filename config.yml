@@ -43,11 +43,11 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         # favicons genereted by https://realfavicongenerator.net
-        favicon: "/static/favicon.ico"
-        favicon16x16: "/static/favicon-16x16.png"
-        favicon32x32: "/static/favicon-32x32.png"
-        apple_touch_icon: "/static/apple-touch-icon.png"
-        safari_pinned_tab: "/static/safari-pinned-tab.svg"
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+        safari_pinned_tab: "/safari-pinned-tab.svg"
 
     # label:
     #     text: "Ϝլוρ Ριрε"
@@ -87,6 +87,8 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
         #   url: "https://keybase.io/flippipe"
         - name: paypal
           url: "https://paypal.me/flippipe"
+        - name: email
+          url: "mailto:filipe@oliveira-carvalho.com"
 
 
     cover:
