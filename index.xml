@@ -6,14 +6,23 @@
     <description>Recent content on Ϝլוρ Ριрε</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 21:20:30 +0000</lastBuildDate><atom:link href="https://flippipe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 00:51:21 +0000</lastBuildDate><atom:link href="https://flippipe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🎧 Playlist</title>
+      <link>https://flippipe.github.io/mix/playlist/</link>
+      <pubDate>Sat, 01 Jan 2022 00:51:21 +0000</pubDate>
+      
+      <guid>https://flippipe.github.io/mix/playlist/</guid>
+      <description>My Podcast Playlist</description>
+    </item>
+    
     <item>
       <title>draw.io - Auto Generate Images</title>
       <link>https://flippipe.github.io/posts/2021-12-30-drawio-auto-generate-images/</link>
       <pubDate>Thu, 30 Dec 2021 21:20:30 +0000</pubDate>
       
       <guid>https://flippipe.github.io/posts/2021-12-30-drawio-auto-generate-images/</guid>
-      <description>I got a new assignment to do and envolves creating diagrams with draw.io. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
+      <description>I got a new assignment and it involves creating diagrams with drawio. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
     </item>
     
   </channel>
