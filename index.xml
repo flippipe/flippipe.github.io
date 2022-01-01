@@ -25,5 +25,14 @@
       <description>I got a new assignment and it involves creating diagrams with drawio. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
     </item>
     
+    <item>
+      <title>404 Page not found</title>
+      <link>https://flippipe.github.io/404.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://flippipe.github.io/404.html</guid>
+      <description>404 error page not found.</description>
+    </item>
+    
   </channel>
 </rss>
