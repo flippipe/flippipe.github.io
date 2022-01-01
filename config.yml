@@ -58,7 +58,7 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
     profileMode:
         enabled: true # needs to be explicitly set
         title: Eu 我 Yo 私 Mé 
-        subtitle: "Backing up my brain. Some times, data get lost!"
+        subtitle: Backing up my brain. Some times, data get lost!
         imageUrl: "https://avatars.githubusercontent.com/u/47356934?v=4"
         imageWidth: 120
         imageHeight: 120
@@ -123,6 +123,12 @@ menu:
           name: tags
           url: /tags/
           weight: 30
+        - identifier: podcasts
+          name: 🎧
+          url: /mix/playlist/
+          weight: 33
+
+          
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
