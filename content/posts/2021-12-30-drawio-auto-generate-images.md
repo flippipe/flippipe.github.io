@@ -2,16 +2,14 @@
 title: "draw.io - Auto Generate Images"
 date: 2021-12-30T21:20:30Z
 draft: false
-summary: "I got a new assignment to do and envolves creating diagrams with draw.io.
-As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
-description: "I got a new assignment to do and envolves creating diagrams with draw.io.
-As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
+summary: "I got a new assignment and it involves creating diagrams with drawio. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
+description: "I got a new assignment and it involves creating diagrams with drawio. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically."
 tags: ["git", "draw.io"]
 ---
 
 # TLDR
 
-Application in [snaps](https://en.wikipedia.org/wiki/Snap_(package_manager)) running script to call other [electron](https://www.electronjs.org/docs/latest) snapped application do not mix well.
+Applications in [snaps](https://en.wikipedia.org/wiki/Snap_(package_manager)) running script to call other [electron](https://www.electronjs.org/docs/latest) snapped application do not mix well.
 
 [Final solution](#solution-1), was use old tools like [incrond](https://github.com/ar-/incron) to captures the changes in the diagrams to auto generate the files.
 
@@ -27,7 +25,7 @@ It could not to be to difficult to do a simple script to do this task... and... 
 
 ## Hurdle ① - Snap Confinement and drawio-desktop
 
-[Snap Confinement](https://snapcraft.io/blog/demystifying-snap-confinement) is good for the security of our computers, but, it expects users have their files in the default locations, and, almost all my files are not where it expect to be.
+[Snap Confinement](https://snapcraft.io/blog/demystifying-snap-confinement) is good for the security of our computers, but, it expects users have their files in the default locations, and, almost all my files are not.
 
 So I try to use the trick to remount my working directory inside `/mnt` to allow snap [removable-media interface](https://snapcraft.io/docs/removable-media-interface) to use it, but no luck.
 
@@ -82,7 +80,7 @@ Last task, `mount` the directory in the new location, adapted from [Home directo
 
 I'm new to git, so, choose the right [hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) to do the task, was not easy... some voices in internet, say to use `pre-commit`, but adding files at this stage is not linear.
 
-My chosen solution was to do a `post-commit`, in which will generate the file and then add and commit the file, something like:
+My chosen solution was to do a `post-commit`, in which will generate the file and then add and commit the file. Something like:
 
 ```shell
 /snap/bin/drawio --export 
@@ -126,10 +124,10 @@ Just found to possible paths:
 
 ### systemd.path
 
-- 👍 I would to use `StartLimitIntervalSec` and `StartLimitBurst`, because drawio-desktop, after each change, save the file
+- 👍 I would like to use `StartLimitIntervalSec` and `StartLimitBurst`, because, drawio-desktop after each change saves the file.
 - 👎🏼 [How to tell which PathChanged?](https://unix.stackexchange.com/questions/600642/systemd-path-how-to-tell-which-pathchanged)
 
-Do not have an option to have the file name of the modified file, kill the possibility to use `systemd.path`, I do not know how many files and directories I will have in the end, and manage all manually will kill the agility.
+Do not have an option to have the name of the modified file, kills the possibility to use `systemd.path`, I do not know how many files and directories I will have in the end, and manage all manually, will kill the agility.
 
 So in the end, I just have the option of `incron` 😒
 
@@ -137,9 +135,9 @@ So in the end, I just have the option of `incron` 😒
 
 Electron apps are made to be used in a graphical environment, not to be used in a script. 
 
-But fortunately, someone use CICD process to test their electron app, and already add that [problem](https://webuild.envato.com/blog/running-headless-javascript-testing-with-electron-on-any-ci-server/)
+But fortunately, someone use CICD process to test their electron app already have that [problem](https://webuild.envato.com/blog/running-headless-javascript-testing-with-electron-on-any-ci-server/) solved.
 
-Meanwhile, while the [feature](https://github.com/electron/electron/issues/228) request in electron is not done, we have an option to create a [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml#heading6) 
+Meanwhile, [feature](https://github.com/electron/electron/issues/228) request in electron is not done, we have an option to create a [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml#heading6) 
 
 # Solution
 
