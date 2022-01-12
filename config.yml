@@ -79,6 +79,8 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
           url: "https://t.me/flippipe"
         - name: github
           url: "https://github.com/flippipe"
+        - name: gitlab
+          url: "https://gitlab.com/flippipe"
         - name: linkedin
           url: "https://www.linkedin.com/in/filipecarvalho"
         - name: stackoverflow
