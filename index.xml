@@ -34,5 +34,14 @@
       <description>I got a new assignment and it involves creating diagrams with drawio. As the diagrams will be used in documentation and exposed in GitHub, I need updated images automatically.</description>
     </item>
     
+    <item>
+      <title>Building a Macro Keyboard</title>
+      <link>https://flippipe.github.io/post/building-a-macro-keyboard/</link>
+      <pubDate>Sat, 23 May 2020 22:15:43 +0000</pubDate>
+      
+      <guid>https://flippipe.github.io/post/building-a-macro-keyboard/</guid>
+      <description>Building a macros keyboard from a conventional numeric keyboard</description>
+    </item>
+    
   </channel>
 </rss>
