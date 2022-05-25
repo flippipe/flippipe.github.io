@@ -4,7 +4,7 @@ date: 2020-05-23T22:15:43Z
 lastmod: 2022-01-23T22:15:43Z
 summary: "Building a macros keyboard from a conventional numeric keyboard"
 description: "Building a macros keyboard from a conventional numeric keyboard"
-tags: ["draft"]
+tags: ["keyboard"]
 draft: false
 cover.image: "https://github.com/flippipe/macro-keyboard/blob/main/final%20product.png?raw=true"
 cover.relative: false 
