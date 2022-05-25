@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://flippipe.github.io/tags/firefox/</loc>
+    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/firefox-policies-json/</loc>
+    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/</loc>
+    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/</loc>
+    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/</loc>
+    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/firefox-privacy-addons/</loc>
+    <lastmod>2022-05-25T20:04:41+01:00</lastmod>
+  </url><url>
     <loc>https://flippipe.github.io/tags/aci/</loc>
     <lastmod>2022-01-03T21:08:50+00:00</lastmod>
   </url><url>
@@ -14,28 +32,19 @@
     <loc>https://flippipe.github.io/tags/cloud/</loc>
     <lastmod>2022-01-03T21:08:50+00:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/post/cloud-dictionary/</loc>
+    <loc>https://flippipe.github.io/posts/cloud-dictionary/</loc>
     <lastmod>2022-01-03T21:08:50+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/tags/gcp/</loc>
     <lastmod>2022-01-03T21:08:50+00:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/post/</loc>
-    <lastmod>2022-01-23T22:15:43+00:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/tags/</loc>
-    <lastmod>2022-01-23T22:15:43+00:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/</loc>
-    <lastmod>2022-01-23T22:15:43+00:00</lastmod>
+    <loc>https://flippipe.github.io/mix/playlist/</loc>
+    <lastmod>2022-01-01T00:51:21+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/mix/</loc>
     <lastmod>2022-01-01T00:51:21+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/tags/podcast/</loc>
-    <lastmod>2022-01-01T00:51:21+00:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/mix/playlist/</loc>
     <lastmod>2022-01-01T00:51:21+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/tags/draw.io/</loc>
@@ -47,13 +56,10 @@
     <loc>https://flippipe.github.io/tags/git/</loc>
     <lastmod>2021-12-30T21:20:30+00:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/posts/</loc>
-    <lastmod>2021-12-30T21:20:30+00:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/post/building-a-macro-keyboard/</loc>
+    <loc>https://flippipe.github.io/posts/building-a-macro-keyboard/</loc>
     <lastmod>2022-01-23T22:15:43+00:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/tags/draft/</loc>
+    <loc>https://flippipe.github.io/tags/keyboard/</loc>
     <lastmod>2022-01-23T22:15:43+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/categories/</loc>

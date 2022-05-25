@@ -6,13 +6,31 @@
     <description>Recent content on Ϝլוρ Ριрε</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 21:08:50 +0000</lastBuildDate><atom:link href="https://flippipe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 21:53:14 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firefox Policies Json</title>
+      <link>https://flippipe.github.io/posts/firefox-policies-json/</link>
+      <pubDate>Wed, 25 May 2022 21:53:14 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/posts/firefox-policies-json/</guid>
+      <description>Customizing Firefox Using policies.json</description>
+    </item>
+    
+    <item>
+      <title>Firefox Privacy Addons</title>
+      <link>https://flippipe.github.io/posts/firefox-privacy-addons/</link>
+      <pubDate>Wed, 25 May 2022 20:04:41 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/posts/firefox-privacy-addons/</guid>
+      <description>A list of some addons to help privacy</description>
+    </item>
+    
     <item>
       <title>Cloud Dictionary</title>
-      <link>https://flippipe.github.io/post/cloud-dictionary/</link>
+      <link>https://flippipe.github.io/posts/cloud-dictionary/</link>
       <pubDate>Mon, 03 Jan 2022 21:08:50 +0000</pubDate>
       
-      <guid>https://flippipe.github.io/post/cloud-dictionary/</guid>
+      <guid>https://flippipe.github.io/posts/cloud-dictionary/</guid>
       <description>New game, new words, new meanings</description>
     </item>
     
@@ -36,10 +54,10 @@
     
     <item>
       <title>Building a Macro Keyboard</title>
-      <link>https://flippipe.github.io/post/building-a-macro-keyboard/</link>
+      <link>https://flippipe.github.io/posts/building-a-macro-keyboard/</link>
       <pubDate>Sat, 23 May 2020 22:15:43 +0000</pubDate>
       
-      <guid>https://flippipe.github.io/post/building-a-macro-keyboard/</guid>
+      <guid>https://flippipe.github.io/posts/building-a-macro-keyboard/</guid>
       <description>Building a macros keyboard from a conventional numeric keyboard</description>
     </item>
     
