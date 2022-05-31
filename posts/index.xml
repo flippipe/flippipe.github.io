@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ϝլוρ Ριрε</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 May 2022 21:53:14 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 May 2022 12:55:15 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform debug</title>
+      <link>https://flippipe.github.io/posts/terraform_debug/</link>
+      <pubDate>Tue, 31 May 2022 12:55:15 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/posts/terraform_debug/</guid>
+      <description>How to debug Terraform variable</description>
+    </item>
+    
     <item>
       <title>Firefox Policies Json</title>
       <link>https://flippipe.github.io/posts/firefox-policies-json/</link>

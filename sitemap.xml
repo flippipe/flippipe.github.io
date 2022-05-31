@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://flippipe.github.io/tags/debug/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/note/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/terraform/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/terraform_debug/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/</loc>
+    <lastmod>2022-05-31T12:55:15+01:00</lastmod>
+  </url><url>
     <loc>https://flippipe.github.io/tags/firefox/</loc>
     <lastmod>2022-05-25T21:53:14+01:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/posts/firefox-policies-json/</loc>
-    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/posts/</loc>
-    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/tags/</loc>
-    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/</loc>
     <lastmod>2022-05-25T21:53:14+01:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/posts/firefox-privacy-addons/</loc>
