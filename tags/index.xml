@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jun 2022 11:17:09 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>notes</title>
-      <link>https://flippipe.github.io/tags/notes/</link>
+      <title>sticky notes</title>
+      <link>https://flippipe.github.io/tags/sticky-notes/</link>
       <pubDate>Thu, 02 Jun 2022 11:17:09 +0100</pubDate>
       
-      <guid>https://flippipe.github.io/tags/notes/</guid>
+      <guid>https://flippipe.github.io/tags/sticky-notes/</guid>
       <description></description>
     </item>
     
@@ -31,15 +31,6 @@
       <pubDate>Tue, 31 May 2022 12:55:15 +0100</pubDate>
       
       <guid>https://flippipe.github.io/tags/debug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>note</title>
-      <link>https://flippipe.github.io/tags/note/</link>
-      <pubDate>Tue, 31 May 2022 12:55:15 +0100</pubDate>
-      
-      <guid>https://flippipe.github.io/tags/note/</guid>
       <description></description>
     </item>
     

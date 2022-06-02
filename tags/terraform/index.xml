@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 31 May 2022 12:55:15 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terraform debug</title>
-      <link>https://flippipe.github.io/posts/terraform_debug/</link>
+      <link>https://flippipe.github.io/sticky-notes/terraform_debug/</link>
       <pubDate>Tue, 31 May 2022 12:55:15 +0100</pubDate>
       
-      <guid>https://flippipe.github.io/posts/terraform_debug/</guid>
+      <guid>https://flippipe.github.io/sticky-notes/terraform_debug/</guid>
       <description>How to debug Terraform variable</description>
     </item>
     

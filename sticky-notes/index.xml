@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sticky-notes on Ϝլוρ Ριрε</title>
+    <link>https://flippipe.github.io/sticky-notes/</link>
+    <description>Recent content in Sticky-notes on Ϝլוρ Ριрε</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jun 2022 11:17:09 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/sticky-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Past without CTRL&#43;V</title>
+      <link>https://flippipe.github.io/sticky-notes/copy_and_past/</link>
+      <pubDate>Thu, 02 Jun 2022 11:17:09 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/copy_and_past/</guid>
+      <description>Past to windows without CTRL&#43;V</description>
+    </item>
+    
+    <item>
+      <title>Terraform debug</title>
+      <link>https://flippipe.github.io/sticky-notes/terraform_debug/</link>
+      <pubDate>Tue, 31 May 2022 12:55:15 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/terraform_debug/</guid>
+      <description>How to debug Terraform variable</description>
+    </item>
+    
+    <item>
+      <title>Firefox Policies Json</title>
+      <link>https://flippipe.github.io/sticky-notes/firefox-policies-json/</link>
+      <pubDate>Wed, 25 May 2022 21:53:14 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/firefox-policies-json/</guid>
+      <description>Customizing Firefox Using policies.json</description>
+    </item>
+    
+    <item>
+      <title>Firefox Privacy Addons</title>
+      <link>https://flippipe.github.io/sticky-notes/firefox-privacy-addons/</link>
+      <pubDate>Wed, 25 May 2022 20:04:41 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/firefox-privacy-addons/</guid>
+      <description>A list of some addons to help privacy</description>
+    </item>
+    
+  </channel>
+</rss>
