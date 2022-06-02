@@ -12,7 +12,7 @@ Today I need to type a long string into a VNC window, without the almost ubiquit
 This just works under **XServer** and not **Wayland** because the use of `xdotool`.
 
 ``` bash
-STRING="yum-config-manager --add-repo=https://rpms.famillecollet.com/enterprise/remi-release-7.rpm"
+STRING="yum-config-manager --add-repo=https://rpms.remirepo.net/enterprise/remi-release-7.rpm"
 WID=$(xdotool search --name "centos7.0 on QEMU/KVM User session" )
 
 xdotool windowactivate --sync "${WID}"  
