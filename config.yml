@@ -64,8 +64,6 @@ params:  # https://github.com/adityatelange/hugo-PaperMod/wiki/Variables#site-va
         imageHeight: 120
         imageTitle: Me somewhere
         buttons:
-            - name: Posts
-              url: posts
             - name: Tags
               url: tags
 
@@ -121,10 +119,14 @@ menu:
           name: posts
           url: /posts/
           weight: 10
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 20
+        - identifier: Sticky Notes
+          name: notes
+          url: /sticky-notes/
+          weight: 15
+        # - identifier: categories
+        #   name: categories
+        #   url: /categories/
+        #   weight: 20
         - identifier: tags
           name: tags
           url: /tags/

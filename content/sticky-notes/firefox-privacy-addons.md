@@ -3,7 +3,7 @@ title: "Firefox Privacy Addons"
 date: 2022-05-25T20:04:41+01:00
 summary: "A list of some addons to help privacy"
 description: "A list of some addons to help privacy"
-tags: ["firefox"]
+tags: ["firefox", "sticky notes"]
 draft: false
 ---
 
