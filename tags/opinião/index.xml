@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mixes on Ϝլוρ Ριрε</title>
-    <link>https://flippipe.github.io/mix/</link>
-    <description>Recent content in Mixes on Ϝլוρ Ριрε</description>
+    <title>opinião on Ϝլוρ Ριрε</title>
+    <link>https://flippipe.github.io/tags/opini%C3%A3o/</link>
+    <description>Recent content in opinião on Ϝլוρ Ριрε</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jun 2022 09:40:47 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/mix/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2022 09:40:47 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/tags/opini%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>www.óculos_proteção.pt</title>
       <link>https://flippipe.github.io/mix/oculos_protecao/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://flippipe.github.io/mix/oculos_protecao/</guid>
       <description>Opinião de como fazer os utilizadores usarem software livre</description>
-    </item>
-    
-    <item>
-      <title>🎧 Playlist</title>
-      <link>https://flippipe.github.io/mix/playlist/</link>
-      <pubDate>Sat, 01 Jan 2022 00:51:21 +0000</pubDate>
-      
-      <guid>https://flippipe.github.io/mix/playlist/</guid>
-      <description>My Podcast Playlist</description>
     </item>
     
   </channel>
