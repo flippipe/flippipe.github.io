@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSP on Ϝլוρ Ριрε</title>
+    <link>https://flippipe.github.io/tags/csp/</link>
+    <description>Recent content in CSP on Ϝլוρ Ριрε</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2022 19:05:43 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/tags/csp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desktop Files</title>
+      <link>https://flippipe.github.io/sticky-notes/desktop_files/</link>
+      <pubDate>Mon, 20 Jun 2022 19:05:43 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/desktop_files/</guid>
+      <description>Desktop files to launch independent firefox instances with it&amp;#39;s own profile</description>
+    </item>
+    
+  </channel>
+</rss>
