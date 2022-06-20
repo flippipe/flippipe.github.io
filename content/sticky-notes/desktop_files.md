@@ -14,7 +14,7 @@ created for each CSP a profile in Firefox.
 
 To be more handy to launch it, I've created three Desktop files, on for each, inside `~/.local/share/applications/`
 
-![menu](/data/desktop%20files.png)
+![menu](desktop%20files.png)
 
 You can also search by the name of CSP.
 
@@ -69,7 +69,7 @@ StartupNotify=true
 
 #### icons
 
-[Here](/data/icons.zip) is a zip with the three icons, to be placed into `~/.local/share/icons/hicolor/128x128/apps/`
+[Here](icons.zip) is a zip with the three icons, to be placed into `~/.local/share/icons/hicolor/128x128/apps/`
 
 
 #### Firefox Profiles
