@@ -24,7 +24,7 @@ You can also search by the name of CSP.
 [Desktop Entry]
 Type=Application
 Name=GCP
-Exec=firefox --no-remote --P GCP https://console.cloud.google.com --class GCP
+Exec=firefox --P GCP https://console.cloud.google.com --class GCP
 Terminal=false
 Encoding=UTF-8
 Comment=Open GCP
@@ -41,7 +41,7 @@ StartupNotify=true
 [Desktop Entry]
 Type=Application
 Name=AWS
-Exec=firefox --no-remote --P AWS https://company.awsapps.com/start#/ --class AWS
+Exec=firefox --P AWS https://company.awsapps.com/start#/ --class AWS
 Terminal=false
 Encoding=UTF-8
 Comment=Open AWS
@@ -57,7 +57,7 @@ StartupNotify=true
 [Desktop Entry]
 Type=Application
 Name=Azure
-Exec=firefox --no-remote --P AZURE https://portal.azure.com/ --class Azure
+Exec=firefox --P AZURE https://portal.azure.com/ --class Azure
 Terminal=false
 Encoding=UTF-8
 Comment=Open Azure
@@ -77,5 +77,5 @@ StartupNotify=true
 To create Firefox profiles, launch Firefix with
 
 ```
-firefox --no-remote --ProfileManager
+firefox --ProfileManager
 ```

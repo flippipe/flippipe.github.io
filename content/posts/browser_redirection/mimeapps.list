@@ -1,0 +1,12 @@
+[Default Applications]
+text/html=superduper.desktop
+x-scheme-handler/http=superduper.desktop
+x-scheme-handler/https=superduper.desktop
+x-scheme-handler/about=superduper.desktop
+x-scheme-handler/unknown=superduper.desktop
+application/xhtml+xml=superduper.desktop
+
+[Added Associations]
+text/html=codium_codium.desktop;libreoffice-writer.desktop;libreoffice_writer.desktop;org.gnome.Evince.desktop;superduper.desktop;chromium_chromium.desktop;firefox_firefox.desktop;
+x-scheme-handler/http=firefox.desktop;chromium_chromium.desktop;superduper.desktop;firefox_firefox.desktop;
+x-scheme-handler/https=firefox.desktop;chromium_chromium.desktop;superduper.desktop;firefox_firefox.desktop;
