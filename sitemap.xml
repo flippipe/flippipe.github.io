@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://flippipe.github.io/posts/browser_redirection/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/desktop-files/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/firefox/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/posts/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/tags/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
+    <loc>https://flippipe.github.io/</loc>
+    <lastmod>2022-08-24T20:18:55+01:00</lastmod>
+  </url><url>
     <loc>https://flippipe.github.io/tags/github/</loc>
     <lastmod>2022-07-15T13:56:25+01:00</lastmod>
   </url><url>
@@ -11,16 +29,7 @@
     <loc>https://flippipe.github.io/sticky-notes/</loc>
     <lastmod>2022-07-15T13:56:25+01:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/tags/</loc>
-    <lastmod>2022-07-15T13:56:25+01:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/</loc>
-    <lastmod>2022-07-15T13:56:25+01:00</lastmod>
-  </url><url>
     <loc>https://flippipe.github.io/tags/csp/</loc>
-    <lastmod>2022-06-20T19:05:43+01:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/tags/desktop-files/</loc>
     <lastmod>2022-06-20T19:05:43+01:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/sticky-notes/desktop_files/</loc>
@@ -59,9 +68,6 @@
     <loc>https://flippipe.github.io/sticky-notes/terraform_debug/</loc>
     <lastmod>2022-05-31T12:55:15+01:00</lastmod>
   </url><url>
-    <loc>https://flippipe.github.io/tags/firefox/</loc>
-    <lastmod>2022-05-25T21:53:14+01:00</lastmod>
-  </url><url>
     <loc>https://flippipe.github.io/sticky-notes/firefox-policies-json/</loc>
     <lastmod>2022-05-25T21:53:14+01:00</lastmod>
   </url><url>
@@ -85,9 +91,6 @@
   </url><url>
     <loc>https://flippipe.github.io/tags/gcp/</loc>
     <lastmod>2022-01-03T21:08:50+00:00</lastmod>
-  </url><url>
-    <loc>https://flippipe.github.io/posts/</loc>
-    <lastmod>2022-01-23T22:15:43+00:00</lastmod>
   </url><url>
     <loc>https://flippipe.github.io/mix/playlist/</loc>
     <lastmod>2022-01-01T00:51:21+00:00</lastmod>
