@@ -3,7 +3,7 @@ title: "Past without CTRL+V"
 date: 2022-06-02T11:17:09+01:00
 summary: "Past to windows without CTRL+V"
 description: "Past to windows without CTRL+V"
-tags: ["X", "sticky notes"]
+tags: ["X", "copy and past"]
 draft: false
 ---
 

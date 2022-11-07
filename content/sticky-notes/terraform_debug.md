@@ -3,7 +3,7 @@ title: "Terraform debug"
 date: 2022-05-31T12:55:15+01:00
 summary: "How to debug Terraform variable"
 description: "How to debug Terraform variable"
-tags: ["terraform", "sticky notes", "debug"]
+tags: ["terraform", "debug"]
 draft: false
 ---
 
