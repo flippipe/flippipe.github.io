@@ -6,7 +6,16 @@
     <description>Recent content in Sticky-notes on Ϝլוρ Ριрε</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jul 2022 13:56:25 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/sticky-notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 18:52:43 +0000</lastBuildDate><atom:link href="https://flippipe.github.io/sticky-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vpn Clients and /etc/resolv.conf</title>
+      <link>https://flippipe.github.io/sticky-notes/vpn-client-etc-resolv-conf/</link>
+      <pubDate>Mon, 07 Nov 2022 18:52:43 +0000</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/vpn-client-etc-resolv-conf/</guid>
+      <description>Some VPN clients still do not play nice with Network Manager, let&amp;#39;s fix it</description>
+    </item>
+    
     <item>
       <title>GitHub Actions Clean Up</title>
       <link>https://flippipe.github.io/sticky-notes/workflow_clean_up/</link>
