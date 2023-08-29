@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CA on Ϝլוρ Ριрε</title>
+    <link>https://flippipe.github.io/tags/ca/</link>
+    <description>Recent content in CA on Ϝլוρ Ριрε</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2023 17:11:40 +0100</lastBuildDate><atom:link href="https://flippipe.github.io/tags/ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add CA Certificate</title>
+      <link>https://flippipe.github.io/sticky-notes/add-ca-certificate/</link>
+      <pubDate>Tue, 29 Aug 2023 17:11:40 +0100</pubDate>
+      
+      <guid>https://flippipe.github.io/sticky-notes/add-ca-certificate/</guid>
+      <description>Add certificate to the linux trust store</description>
+    </item>
+    
+  </channel>
+</rss>
